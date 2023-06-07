@@ -1,0 +1,6 @@
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\AreaOfFiguresLibrary\bin\Debug\AreaOfFiguresLibrary.dll
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\AreaOfFiguresLibrary\bin\Debug\AreaOfFiguresLibrary.pdb
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\AreaOfFiguresLibrary\obj\Debug\AreaOfFiguresLibrary.csproj.AssemblyReference.cache
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\AreaOfFiguresLibrary\obj\Debug\AreaOfFiguresLibrary.csproj.CoreCompileInputs.cache
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\AreaOfFiguresLibrary\obj\Debug\AreaOfFiguresLibrary.dll
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\AreaOfFiguresLibrary\obj\Debug\AreaOfFiguresLibrary.pdb

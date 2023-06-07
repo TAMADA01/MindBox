@@ -1,0 +1,11 @@
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\Test\bin\Debug\Test.exe.config
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\Test\bin\Debug\Test.exe
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\Test\bin\Debug\Test.pdb
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\Test\bin\Debug\AreaOfFiguresLibrary.dll
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\Test\bin\Debug\AreaOfFiguresLibrary.pdb
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\Test\obj\Debug\Test.csproj.SuggestedBindingRedirects.cache
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\Test\obj\Debug\Test.exe
+C:\Алекс\Git\MindBox\Вопрос 2\AreaOfFigures\Test\obj\Debug\Test.pdb
