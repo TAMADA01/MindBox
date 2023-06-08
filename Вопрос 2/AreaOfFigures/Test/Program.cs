@@ -7,9 +7,11 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Figure figure = new Curcle(5);
+            Figure figure = new Curcle(6);
+            Triangle triangle = new Triangle(5, 3, 4);
 
             Console.WriteLine(figure.Area);
+            Console.WriteLine(triangle.IsRightAngle());
         }
     }
 }

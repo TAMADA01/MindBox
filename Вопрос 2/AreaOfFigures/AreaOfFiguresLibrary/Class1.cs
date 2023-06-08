@@ -10,42 +10,84 @@ namespace AreaOfFiguresLibrary
         {
         }
 
-        protected abstract double CalculateArea();
+        public abstract void CalculateArea();
     }
 
     public class Curcle : Figure
     {
-        public readonly double Radius;
+        private double _radius;
+        public double Radius
+        {
+            get => _radius;
+            set 
+            { 
+                _radius = value;
+                CalculateArea();
+            }
+        }
 
         public Curcle(double radius) : base() 
         {
             Radius = radius;
-            Area = CalculateArea();
         }
 
-        protected override double CalculateArea()
+        public override void CalculateArea()
         {
-            return Math.PI * Radius * Radius;
+            Area = Math.PI * Radius * Radius;
         }
     }
 
     public class Triangle : Figure
     {
-        public readonly double SideA, SideB, SideC;
+        private double _sideA, _sideB, _sideC;
+        public double SideA
+        {
+            get => _sideA;
+            set
+            {
+                _sideA = value;
+                CalculateArea();
+            }
+        }
+
+        public double SideB
+        {
+            get => _sideB;
+            set
+            {
+                _sideB = value;
+                CalculateArea();
+            }
+        }
+
+        public double SideC
+        {
+            get => _sideC;
+            set
+            {
+                _sideC = value;
+                CalculateArea();
+            }
+        }
 
         public Triangle(double a, double b, double c) : base()
         {
-            SideA = a;
-            SideB = b;
-            SideC = c;
-            Area = CalculateArea();
+            _sideA = a;
+            _sideB = b;
+            _sideC = c;
+            CalculateArea();
         }
 
-        protected override double CalculateArea()
+        public override void CalculateArea()
         {
             double p = (SideA + SideB + SideC) / 2;
 
-            return Math.Sqrt(p * (p - SideA) * (p - SideB) * (p - SideC));
+            Area = Math.Sqrt(p * (p - SideA) * (p - SideB) * (p - SideC));
+        }
+
+        public bool IsRightAngle()
+        {
+            return (SideA * SideA + SideB * SideB == SideC * SideC) || (SideA * SideA + SideC * SideC == SideB * SideB) || (SideC * SideC + SideB * SideB == SideA * SideA);
         }
     }
 }
